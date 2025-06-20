@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café del Sol - Cafetería Artesanal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Café del Sol</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#servicios" class="nav-link">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Bienvenido a Café del Sol</h1>
+            <p class="hero-subtitle">Donde cada taza cuenta una historia de sabor y tradición</p>
+            <button class="cta-button">Descubre nuestros sabores</button>
+        </div>
+        <div class="hero-image">
+            <div class="coffee-cup"><img src="assets/animated-coffe.png" width="400" height="400" alt="coffe-img"></div>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">☕</div>
+                    <h3>Café Artesanal</h3>
+                    <p>Granos seleccionados y tostados artesanalmente para ofrecerte el mejor sabor en cada taza.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🥐</div>
+                    <h3>Repostería Casera</h3>
+                    <p>Deliciosos pasteles, croissants y postres horneados frescos cada día con recetas tradicionales.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🍽️</div>
+                    <h3>Desayunos</h3>
+                    <p>Desayunos completos y nutritivos para comenzar tu día con energía y buen sabor.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🌙</div>
+                    <h3>Ambiente Nocturno</h3>
+                    <p>Disfruta de nuestro acogedor ambiente nocturno perfecto para reuniones y momentos especiales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contáctanos</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>📍 Dirección</h3>
+                        <p>Av. Principal 123<br>Centro, Ciudad</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📞 Teléfono</h3>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>🕒 Horarios</h3>
+                        <p>Lun - Vie: 7:00 - 22:00<br>Sáb - Dom: 8:00 - 23:00</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>✉️ Email</h3>
+                        <p>info@cafedelsol.com</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <h3>Envíanos un mensaje</h3>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Tu email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Tu mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Café del Sol. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
