@@ -26,10 +26,9 @@ Bienvenido al repositorio del sitio web oficial de **Café del Sol**, tu rincón
 - HTML5
 - CSS3 (con Flexbox y Grid)
 - JavaScript
-- [Opcional: React, Vue, etc.]
-- [Opcional: TailwindCSS, Bootstrap]
+
 
 ---
 
-## 📁 Estructura del Proyecto
+
 
