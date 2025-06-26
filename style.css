@@ -170,6 +170,22 @@ body {
     animation: slideInRight 1s ease-out;
 }
 
+.coffee-cup{
+    position:relative;
+    width: 400px;
+    height: 400px;
+    animation: float 3s ease-in-out infinite;
+    top: -60px;
+    right: 60px;
+}
+
+.coffee-cup::before{
+    position: absolute;
+    top: 50px;
+    right: -50px;
+    width: 80px;
+    height: 100px;
+}
 /*.coffee-cup {
     width: 300px;
     height: 400px;
